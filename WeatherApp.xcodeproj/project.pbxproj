@@ -12,7 +12,7 @@
 		205DE1E52B3783ED00AA6760 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205DE1E42B3783ED00AA6760 /* WeatherManager.swift */; };
 		2089A8462B387FB200EC3C57 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089A8452B387FB200EC3C57 /* WeatherView.swift */; };
 		2089A8482B38800100EC3C57 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089A8472B38800100EC3C57 /* ModelData.swift */; };
-		2089A84A2B38806F00EC3C57 /* weatherData.JSON in Resources */ = {isa = PBXBuildFile; fileRef = 2089A8492B38806F00EC3C57 /* weatherData.JSON */; };
+		2089A84A2B38806F00EC3C57 /* weatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2089A8492B38806F00EC3C57 /* weatherData.json */; };
 		2089A84C2B3881CE00EC3C57 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089A84B2B3881CE00EC3C57 /* Extensions.swift */; };
 		209623E82B35E64B005A5838 /* WeatherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209623E72B35E64B005A5838 /* WeatherAppApp.swift */; };
 		209623EA2B35E64B005A5838 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209623E92B35E64B005A5838 /* ContentView.swift */; };
@@ -27,7 +27,7 @@
 		205DE1E42B3783ED00AA6760 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		2089A8452B387FB200EC3C57 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		2089A8472B38800100EC3C57 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
-		2089A8492B38806F00EC3C57 /* weatherData.JSON */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weatherData.JSON; sourceTree = "<group>"; };
+		2089A8492B38806F00EC3C57 /* weatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weatherData.json; sourceTree = "<group>"; };
 		2089A84B2B3881CE00EC3C57 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		209623E42B35E64B005A5838 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		209623E72B35E64B005A5838 /* WeatherAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppApp.swift; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 			children = (
 				209623EE2B35E64D005A5838 /* Preview Assets.xcassets */,
 				2089A8472B38800100EC3C57 /* ModelData.swift */,
-				2089A8492B38806F00EC3C57 /* weatherData.JSON */,
+				2089A8492B38806F00EC3C57 /* weatherData.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				209623EF2B35E64D005A5838 /* Preview Assets.xcassets in Resources */,
-				2089A84A2B38806F00EC3C57 /* weatherData.JSON in Resources */,
+				2089A84A2B38806F00EC3C57 /* weatherData.json in Resources */,
 				209623EC2B35E64D005A5838 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,7 +327,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -359,7 +359,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

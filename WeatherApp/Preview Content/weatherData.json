@@ -6,15 +6,15 @@
     "weather": [
         {
             "id": 501,
-            "main": "Rain",
-            "description": "moderate rain",
+            "main": "Clear",
+            "description": "clear sky",
             "icon": "10d"
         }
     ],
     "base": "stations",
     "main": {
-        "temp": 298.48,
-        "feels_like": 298.74,
+        "temp": 15.4,
+        "feels_like": 17.5,
         "temp_min": 297.56,
         "temp_max": 300.05,
         "pressure": 1015,

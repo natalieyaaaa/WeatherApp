@@ -30,6 +30,8 @@ struct WelcomeView: View {
             .foregroundStyle(.white)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .preferredColorScheme(.dark)
+
     }
 }
 
