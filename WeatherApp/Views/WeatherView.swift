@@ -59,6 +59,9 @@ struct WeatherView: View {
                     }
             }
             .padding()
+            VStack {
+                
+            }
         }
         .background(.darkBlue)
         .preferredColorScheme(.dark)
