@@ -8,7 +8,8 @@
 import Foundation
 import CoreLocation
 
-class WeatherManager {
+class WeatherManager: ObservableObject {
+    
     func GetCurrentWeather(longitude: CLLocationDegrees, latitude: CLLocationDegrees) async throws -> ResponseBody {
         guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?lat=\(latitude)&lon=\(longitude)&appid=8ca7e27c059cf730e36ad906482628df&units=metric") else {fatalError("Missing URL")}
         
@@ -21,6 +22,9 @@ class WeatherManager {
         
         return decodedData
     }
+    
+    @Published var weatherType = ""
+    
 }
 
 struct ResponseBody: Decodable {
@@ -62,3 +66,13 @@ extension ResponseBody.MainResponse {
     var tempMin: Double { return temp_min }
     var tempMax: Double { return temp_max }
 }
+
+//enum weatherType {
+//    case clear
+//    case clouds
+//    case rain
+//    case thunderstorm
+//    case drizzle
+//    case snow
+//    
+//}

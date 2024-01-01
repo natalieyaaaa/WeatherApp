@@ -16,12 +16,13 @@ struct ContentView: View {
         VStack {
             if let location = locationManager.location {
                 if let weather = weather {
-                    WeatherView(weather: weather)
+                    NewWeatherView(weather: weather)
                 } else {
                     LoadingView()
                         .task {
                             do {
                                 weather = try await weatherManager.GetCurrentWeather(longitude: location.longitude, latitude: location.latitude)
+                            
                             } catch {
                                 print("Error getting weather: \(error)")
                             }
@@ -35,13 +36,13 @@ struct ContentView: View {
                         .environmentObject(locationManager)
                 }
             }
+            
         }
-        .background(.darkBlue)
         .preferredColorScheme(.dark)
-
     }
 }
 
 #Preview {
     ContentView()
+        .environmentObject(LocationManager())
 }
